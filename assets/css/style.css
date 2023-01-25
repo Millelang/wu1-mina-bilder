@@ -1,7 +1,20 @@
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
     height: 100vh;
+}
+
+body {
+    cursor: url(https://cdn.custom-cursor.com/db/pointer/32/pusheen_and_ugly_holiday_sweater_pointer.png), pointer !important;
+}
+
+.main-nav {
+    display: flex;
+}
+
+a.push {
+    margin-left: auto;
 }
 
 img {
@@ -9,20 +22,79 @@ img {
     width: 100%;
 }
 
+p {
+    color: white;
+}
+
+a:link {
+    color: rgb(255, 255, 255);
+}
+
+a:visited {
+    color: rgb(255, 255, 255);
+}
+
+a:hover {
+    color: rgb(200, 200, 200);
+}
+
+.split {
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+.bild {
+    max-width: 100%;
+    height: auto;
+}
+
+.jor {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    padding: 0;
+    padding-left: 4ch;
+    padding-top: 4ch;
+    padding-bottom: 5ch;
+    font-size: large;
+}
+
 
 .container {
     width: min(100ch, 100vw - 4rem);
     margin-inline: auto;
 }
+
 ul {
     padding: 0;
     margin: 0;
     list-style: none;
 }
+
+h1 {
+    color: #ffffff;
+}
+
 .image-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
     gap: 1rem;
 
+}
+
+body {
+    background-color: rgb(84, 84, 84);
+}
+
+nav>a {
+    font-weight: 500;
+    text-decoration: none;
+}
+
+nav {
+    color: #ffffff;
+    background-color: #2f2f2f;
 }
