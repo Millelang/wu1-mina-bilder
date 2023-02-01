@@ -26,8 +26,15 @@ p {
     color: white;
 }
 
+.putt {
+    padding-left: 1rem;
+}
+
 a:link {
     color: rgb(255, 255, 255);
+
+    font-size: x-large;
+    text-decoration: none;
 }
 
 a:visited {
