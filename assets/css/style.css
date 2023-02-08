@@ -5,9 +5,23 @@ body {
     height: 100vh;
 }
 
+
+
 body {
     cursor: url(https://cdn.custom-cursor.com/db/pointer/32/pusheen_and_ugly_holiday_sweater_pointer.png), pointer !important;
+    font-family: "pilsner", sans-serif;
+font-weight: 400;
+font-style: normal;
 }
+
+#ip-address {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 24px;
+  }
 
 .main-nav {
     display: flex;

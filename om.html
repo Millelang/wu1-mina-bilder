@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Om</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
@@ -20,10 +20,57 @@
     </nav>
     <main class="container">
         <h1>Om webbsidan</h1>
-        <p>Denna sida är ett bildgalleri utav min katt Yumyum, Yumyum är en cornish rex vilket innebär att han har endast ett lager päls</p>
-        
-        <p>Yumyum är nio år gammal och älskar värme, allt som är varmt har han beslagtagit genom att parkera(lägga sig) på det</p>
+        <p>Denna sida är ett bildgalleri utav min katt Yumyum, Yumyum är en cornish rex vilket innebär att han har
+            endast ett lager päls</p>
+
+        <p>Yumyum är nio år gammal och älskar värme, allt som är varmt har han beslagtagit genom att parkera(lägga sig)
+            på det</p>
+
+        <P>Min katt Yumyum är en vacker och livlig Cornish Rex. De unika egenskaperna hos denna ras, som inkluderar
+            deras korta och lockiga päls och stora öron, gör dem till en verkligt unik katt. Yumyum har en ovanligt
+            kärleksfull och social personlighet, och han älskar att leka och kura upp sig i famnen. Trots sin lilla
+            storlek är han en stark och aktiv katt, och han har en otrolig energi och livslust. För att hålla henne
+            frisk och glad kräver han en hel del motion och lek, men han belönar sin ägare med sin kärlek och
+            tillgivenhet varje dag. Yumyum är en verkligt speciell och älskad medlem av vår familj.</P>
+        <P>Yumyum är också mycket nyfiken och intelligent, och han älskar att utforska och upptäcka nya saker. han är
+            också en stor beundrare av människors sällskap och han kommer ofta för att få klappar och kela. Cornish Rex
+            är kända för sin mjuka och lockiga päls, som kräver minimal underhåll jämfört med andra raser. Detta gör
+            Yumyum till en idealisk katt för människor med allergier, eftersom hennes päls inte tappar så mycket.
+
+            Sammantaget är Yumyum en fantastisk och unik katt som tillför mycket kärlek och glädje till vår familj varje
+            dag. Hennes energi, nyfikenhet och tillgivenhet är bara några av de saker som gör henne till en speciell
+            vän. Om du är på jakt efter en katt med en speciell personlighet och en unik utseende, kan jag verkligen
+            rekommendera en Cornish Rex som Yumyum.</P>
+        <P>Det är viktigt att nämna att Cornish Rex är en kattras som kräver en del särskild uppmärksamhet. Deras unika
+            päls och kroppstyp kräver regelbunden grooming och vård för att hålla dem friska och glada. De har också en
+            stark önskan om kontinuerlig uppmärksamhet och interaktion, så det är viktigt att tillbringa tillräckligt
+            med tid med dem och ge dem den mentala och fysiska aktivering som de behöver.
+
+            Tack vare sin tillgivenhet och lättsamma personlighet är Cornish Rex en utmärkt katt för familjer med barn,
+            eftersom de ofta är mycket tålmodiga och lättsamma. De är också en utmärkt katt för ensamstående personer
+            eftersom de är så kärleksfulla och tillgivna och ger en känsla av sällskap och kärlek.
+
+            Så, om du är på jakt efter en katt med en unik personlighet och en mjuk och lockig päls, är Cornish Rex
+            definitivt en ras att överväga. Och med en katt som Yumyum som exempel på allt de har att erbjuda, kan du
+            vara säker på att du kommer att bli kär i denna vackra och tillgivna ras.</P>
+
+
+
     </main>
+    
+    <div id="ip-address"></div>
+
+    <div id="ip-address"></div>
+
+    <script>
+      fetch('https://api.ipify.org?format=json')
+        .then(response => response.json())
+        .then(data => {
+          document.getElementById('ip-address').innerHTML =
+            'Your IP address is: ' + data.ip + '<br>' +
+            'Your web browser is: ' + navigator.userAgent;
+        });
+    </script>
 </body>
 
 </html>
